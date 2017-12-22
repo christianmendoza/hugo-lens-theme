@@ -1,0 +1,7 @@
+<article>
+  <a class="thumbnail" href="{{ .imagePathFull }}" data-position="{{ .position }}">
+    <img src="{{ .imagePathThumb }}" alt="{{ .title }}" />
+  </a>
+  <h2>{{ .title }}</h2>
+  {{ with .caption }}<p>{{ . }}</p>{{ end }}
+</article>
