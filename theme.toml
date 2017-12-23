@@ -6,7 +6,7 @@ license = "Creative Commons Attribution 3.0 Unported"
 licenselink = "//github.com/christianmendoza/hugo-lens-theme/blob/master/LICENSE.md"
 description = "Lens is a full screen responsive photo gallery, featuring a completely full screen experience."
 homepage = "//github.com/christianmendoza/hugo-lens-theme"
-tags = ["minimal", "onepage", "one page", "responsive", "image", "gallery", "portfolio", "gallery"]
+tags = ["minimal", "onepage", "one page", "responsive", "image", "gallery", "portfolio"]
 features = []
 min_version = "0.21"
 
