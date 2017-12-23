@@ -5,6 +5,11 @@ Lens is a full screen responsive photo gallery, featuring a completely full scre
 ![Hugo Lens Theme screenshot](https://raw.githubusercontent.com/christianmendoza/hugo-lens-theme/master/images/screenshot.png)
 
 
+## Demo
+
+Demo available on [cm-hugo-lens-theme.firebaseapp.com](//cm-hugo-lens-theme.firebaseapp.com/).
+
+
 ## Installation
 
 Inside the folder of your Hugo site run:
