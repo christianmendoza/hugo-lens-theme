@@ -64,7 +64,7 @@ Note: All keyboard shortcuts are disabled when the "xsmall" breakpoint is active
 
 There are additional settings you can configure which are located in the [`static/assets/js/main.js`](//github.com/christianmendoza/hugo-lens-theme/blob/master/static/assets/js/main.js) file.
 
-```json
+```
 settings: {
 
   // Preload all images.
