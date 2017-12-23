@@ -1,0 +1,83 @@
+[[images]]
+  title = "Diam tempus accumsan"
+  caption = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  imagePathFull = "images/fulls/01.jpg"
+  imagePathThumb = "images/thumbs/01.jpg"
+  position = "left center"
+
+[[images]]
+  title = "Vivamus convallis libero"
+  caption = "Sed velit lacus, laoreet at venenatis convallis in lorem tincidunt."
+  imagePathFull = "images/fulls/02.jpg"
+  imagePathThumb = "images/thumbs/02.jpg"
+  position = ""
+
+[[images]]
+  title = "Nec accumsan enim felis"
+  caption = "Maecenas eleifend tellus ut turpis eleifend, vitae pretium faucibus."
+  imagePathFull = "images/fulls/03.jpg"
+  imagePathThumb = "images/thumbs/03.jpg"
+  position = "top center"
+
+[[images]]
+  title = "Donec maximus nisi eget"
+  caption = "Tristique in nulla vel congue. Sed sociis natoque parturient nascetur."
+  imagePathFull = "images/fulls/04.jpg"
+  imagePathThumb = "images/thumbs/04.jpg"
+  position = ""
+
+[[images]]
+  title = "Nullam vitae nunc vulputate"
+  caption = "Tristique in nulla vel congue. Sed sociis natoque parturient nascetur."
+  imagePathFull = "images/fulls/05.jpg"
+  imagePathThumb = "images/thumbs/05.jpg"
+  position = "top center"
+
+[[images]]
+  title = "Phasellus magna faucibus"
+  caption = "Nulla dignissim libero maximus tellus varius dictum ut posuere magna."
+  imagePathFull = "images/fulls/06.jpg"
+  imagePathThumb = "images/thumbs/06.jpg"
+  position = ""
+
+[[images]]
+  title = "Proin quis mauris"
+  caption = "Etiam ultricies, lorem quis efficitur porttitor, facilisis ante orci urna."
+  imagePathFull = "images/fulls/07.jpg"
+  imagePathThumb = "images/thumbs/07.jpg"
+  position = ""
+
+[[images]]
+  title = "Gravida quis varius enim"
+  caption = "Nunc egestas congue lorem. Nullam dictum placerat ex sapien tortor mattis."
+  imagePathFull = "images/fulls/08.jpg"
+  imagePathThumb = "images/thumbs/08.jpg"
+  position = ""
+
+[[images]]
+  title = "Morbi eget vitae adipiscing"
+  caption = "In quis vulputate dui. Maecenas metus elit, dictum praesent lacinia lacus."
+  imagePathFull = "images/fulls/09.jpg"
+  imagePathThumb = "images/thumbs/09.jpg"
+  position = ""
+
+[[images]]
+  title = "Habitant tristique senectus"
+  caption = "Vestibulum ante ipsum primis in faucibus orci luctus ac tincidunt dolor."
+  imagePathFull = "images/fulls/10.jpg"
+  imagePathThumb = "images/thumbs/10.jpg"
+  position = ""
+
+[[images]]
+  title = "Pharetra ex non faucibus"
+  caption = "Ut sed magna euismod leo laoreet congue. Fusce congue enim ultricies."
+  imagePathFull = "images/fulls/11.jpg"
+  imagePathThumb = "images/thumbs/11.jpg"
+  position = ""
+
+[[images]]
+  title = "Mattis lorem sodales"
+  caption = "Feugiat auctor leo massa, nec vestibulum nisl erat faucibus, rutrum nulla."
+  imagePathFull = "images/fulls/12.jpg"
+  imagePathThumb = "images/thumbs/12.jpg"
+  position = ""
