@@ -3,10 +3,10 @@
   {{ with .Site.Params.header.description }}<p>{{ . | markdownify }}</p>{{ end }}
 
   {{ if .Site.Params.social }}
-  <ul class="icons">
-    {{ range .Site.Params.social }}
-      <li><a href="{{ .url }}" class="icon {{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
-    {{ end }}
-  </ul>
+    <ul class="icons">
+      {{ range .Site.Params.social }}
+        <li><a href="{{ .url }}" class="icon {{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+      {{ end }}
+    </ul>
   {{ end }}
 </header>

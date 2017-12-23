@@ -8,28 +8,28 @@
   <head>
     {{ partial "head" . }}
   </head>
-<body class="is-loading-0 is-loading-1 is-loading-2">
+  <body class="is-loading-0 is-loading-1 is-loading-2">
 
-  <!-- Main -->
-  <div id="main">
+    <!-- Main -->
+    <div id="main">
 
-    <!-- Header -->
-    {{ partial "header" . }}
+      <!-- Header -->
+      {{ partial "header" . }}
 
-    <!-- Thumbnails -->
-    <section id="thumbnails">
-      {{ range $.Site.Data.data.images }}
-        {{ partial "thumbnail" . }}
-      {{ end }}
-    </section>
+      <!-- Thumbnails -->
+      <section id="thumbnails">
+        {{ range $.Site.Data.data.images }}
+          {{ partial "thumbnail" . }}
+        {{ end }}
+      </section>
 
-    <!-- Footer -->
-    {{ partial "footer" . }}
+      <!-- Footer -->
+      {{ partial "footer" . }}
 
-  </div>
+    </div>
 
-  <!-- Scripts -->
-  {{ partial "scripts" . }}
+    <!-- Scripts -->
+    {{ partial "scripts" . }}
 
-</body>
+  </body>
 </html>
