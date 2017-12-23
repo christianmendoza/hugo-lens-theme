@@ -5,7 +5,7 @@
   {{ if .Site.Params.social }}
     <ul class="icons">
       {{ range .Site.Params.social }}
-        <li><a href="{{ .url }}" class="icon {{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+        <li><a href="{{ .link }}" class="icon {{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
       {{ end }}
     </ul>
   {{ end }}
