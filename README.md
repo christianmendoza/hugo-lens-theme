@@ -1,6 +1,6 @@
 # Lens
 
-Lens is a full screen responsive photo gallery, featuring a completely full screen experience. It is a direct port of [Lens](//html5up.net/lens) by [HTML5 UP's](//html5up.net).
+Lens is a full screen responsive photo gallery, featuring a completely full screen experience. It is a port of [Lens](//html5up.net/lens) by [HTML5 UP](//html5up.net).
 
 ![Hugo Lens Theme screenshot](https://raw.githubusercontent.com/christianmendoza/hugo-lens-theme/master/images/screenshot.png)
 
