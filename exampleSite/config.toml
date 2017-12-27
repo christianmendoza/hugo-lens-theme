@@ -18,24 +18,24 @@ googleAnalytics = ""
 
   # Social Icons
   [[params.social]]
-    medium = "Twitter"
+    label = "Twitter"
     icon = "fa-twitter"
-    link = "https://twitter.com"
+    url = "https://twitter.com"
 
   [[params.social]]
-    medium = "Instagram"
+    label = "Instagram"
     icon = "fa-instagram"
-    link = "https://instagram.com"
+    url = "https://instagram.com"
 
   [[params.social]]
-    medium = "Github"
+    label = "Github"
     icon = "fa-github"
-    link = "https://github.com"
+    url = "https://github.com"
 
   [[params.social]]
-    medium = "Email"
+    label = "Email"
     icon = "fa-envelope-o"
-    link = "mailto:name@example.org"
+    url = "mailto:name@example.org"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
