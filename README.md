@@ -30,9 +30,14 @@ After installing the Lens theme successfully it requires a just a few more steps
 Take a look inside the [`exampleSite`](//github.com/christianmendoza/hugo-lens-theme/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](//github.com/christianmendoza/hugo-lens-theme/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](//github.com/christianmendoza/hugo-lens-theme/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to customize this theme as you like.
 
 
+### Example demo
+
+In the [`exampleSite`](//github.com/christianmendoza/hugo-lens-theme/blob/master/exampleSite) folder you can find an example [`data`](//github.com/christianmendoza/hugo-lens-theme/blob/master/exampleSite/data) folder with a `data.toml` file and [`static`](//github.com/christianmendoza/hugo-lens-theme/blob/master/static). Copy both folders to the root folder of your Hugo site. Start/restart your local server to see an example site with a few test placeholder images.
+
+
 ### Add new images
 
-Data for all images are stored in `data/data.toml`. Upload full and thumbnail size images to your `static` folder in any folder structure you wish. Use the following snippet below to add new images.
+Data for all images is stored in `data/data.toml`. Upload full and thumbnail size images to your `static` folder in any folder structure you wish. Use the following snippet below to add new images.
 
 ```toml
 [[images]]
@@ -43,12 +48,7 @@ Data for all images are stored in `data/data.toml`. Upload full and thumbnail si
   position = "left center"
 ```
 
-Each image has a `title` and `caption` text. Update both `imagePathFull` and `imagePathFull` accordingly to where you saved your images. `position` corresponds to how the image will be displayed in the main viewer. It's centered by default, however you can have a specific area be shown by supplying a valid css background position value.
-
-
-### Example demo
-
-In the [`exampleSite`](//github.com/christianmendoza/hugo-lens-theme/blob/master/exampleSite) folder you can find an example [`data`](//github.com/christianmendoza/hugo-lens-theme/blob/master/exampleSite/data) folder with a `data.toml` file and [`static`](//github.com/christianmendoza/hugo-lens-theme/blob/master/static). Copy both folders to the root folder of your Hugo site. Start/restart your local server to see an example site with a few test placeholder images.
+Each image has a `title` and `caption` text. Update both `imagePathFull` and `imagePathThumb` accordingly to where you saved your images. `position` corresponds to how the image will be displayed in the main viewer. It's centered by default, however you can have a specific area be shown by supplying a valid css background position value.
 
 
 ### Keyboard shortcuts
@@ -95,13 +95,13 @@ The above are all default. Take note that most changes will require you to edit 
 
 ### Add social icon links
 
-Add icons to your social media properties. Change `medium`, `icon`, and `link` accordingly. Follow the same snippet to add more icon links. Remove any of those you don't want.
+Add icons to your social media properties. Change `label`, `icon`, and `url` accordingly. Follow the same snippet to add more icon links. Remove any of those you don't want.
 
 ```toml
 [[params.social]]
-  medium = "Twitter"
+  label = "Twitter"
   icon = "fa-twitter"
-  link = "#"
+  url = "#"
 ```
 
 
